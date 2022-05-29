@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React, { useState } from 'react';
 
 const Editor = (props) => {
@@ -96,7 +97,7 @@ const Editor = (props) => {
         <div className='flex justify-between  border-b-4 border-gray-600'>
             {/* Toggle */}
             <div className='px-5 mt-2' >
-                <a href='/' className='w-full font-bold flex items-center justify-center border-2 py-1 px-3 border-sky-400'><span style={{color:'#2026d2'}}>SQL Editor</span></a>
+                <Link href='/' className='w-full font-bold flex items-center justify-center border-2 py-1 px-3 border-sky-400'><span style={{color:'#2026d2'}}>SQL Editor</span></Link>
                 <div className='mt-5 mb-2 font-bold uppercase tracking-widest'>Select Table</div>
                 <div className='flex flex-col space-y-2 font-semibold'>
                     <div className='cursor-pointer text-center px-4 py-1 border bg-white hover:bg-slate-700 hover:text-white border-gray-400 hover:shadow-sm shadow-slate-300' onClick={toggle2}>Customers</div>

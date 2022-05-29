@@ -83,13 +83,13 @@ const OwnQuery = (props) => {
       <div className='text-center'>
         <h1 className='text-2xl font-bold'>No Results Found for the given query</h1>
         <div className='text-left'>
-          <div className='font-semibold text-xl'>List of available queries are:- </div>
+          <div className='font-semibold text-xl'>List of available queries are: </div>
           <div className='text-lg'>{'>'} select * from customers</div>
-          <div className='text-lg'>{'>'} select * from customers where contactTitle= 'Owner'</div>
-          <div className='text-lg'>{'>'} select * from customers where country= 'Mexico'</div>
-          <div className='text-lg'>{'>'} select * from customers where contactTitle= 'Owner' and city='Mexico D.F.'</div>
-          <div className='text-lg'>{'>'} select * from customers where city='London'</div>
-          <div className='text-lg'>{'>'} select * from customers where contactTitle= 'Owner' or city='London'</div>
+          <div className='text-lg'>{'>'} select * from customers where contactTitle= &apos;Owner&apos;</div>
+          <div className='text-lg'>{'>'} select * from customers where country= &apos;Mexico&apos;</div>
+          <div className='text-lg'>{'>'} select * from customers where contactTitle= &apos;Owner&apos; and city=&apos;Mexico D.F.&apos;</div>
+          <div className='text-lg'>{'>'} select * from customers where city=&apos;London&apos;</div>
+          <div className='text-lg'>{'>'} select * from customers where contactTitle= &apos;Owner&apos; or city=&apos;London&apos;</div>
         </div>
       </div>}
     </div>
